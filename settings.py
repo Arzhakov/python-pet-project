@@ -5,7 +5,12 @@ class SettingsManager:
     default_settings = {
         'library': '~/.ppp/library',
         'salt': '200',
-        'select': '#documents a.rel-link'
+        'select1': '#documents a.rel-link',
+        'select2': '#documents a.rel-link',
+        'authors_class1': '__title',
+        'authors_text':  'Tags List:',
+        'authors_class2': '__content',
+        'database': '~/.ppp/library.db'
     }
 
     def __init__(self):
